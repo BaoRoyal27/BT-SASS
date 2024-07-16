@@ -1,0 +1,8 @@
+@import '../variable/variable';
+
+
+@mixin allText($fs,$fw,$c){
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+}
